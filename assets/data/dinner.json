@@ -1,0 +1,7 @@
+{
+    "dinner": [
+        {"food": "Steak", "price": 15.99,"calories": 679},
+        {"food": "Bisuits and Gravy", "price": 4.99, "calories": 508},
+        {"food": "Pizza", "price": 7.25, "calories": 2269}
+    ]
+}

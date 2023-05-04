@@ -1,0 +1,61 @@
+<app-header [headerInfo] = 'studInfo'></app-header>
+
+<mat-tab-group mat-stretch-tabs [ngStyle]="{textAlign: 'center'}">
+    <mat-tab label="Breakfast">
+        <table>
+            <tr>
+                <th>Meal</th>
+                <th>Price</th>
+                <th>Calories</th>
+            </tr>
+            <tr *ngFor = "let fd of breakfastdata">
+                <td>{{fd.food}}</td>
+                <td>{{fd.price}}</td>
+                <td>{{fd.calories}}</td>
+            </tr>
+        </table>
+    </mat-tab>
+
+    <mat-tab label="Lunch">
+        <table>
+            <tr>
+                <th>Meal</th>
+                <th>Price</th>
+                <th>Calories</th>
+            </tr>
+            <tr *ngFor = "let fd of lunchdata">
+                <td>{{fd.food}}</td>
+                <td>{{fd.price}}</td>
+                <td>{{fd.calories}}</td>
+            </tr>
+        </table>
+    </mat-tab>
+    <table>
+            <tr>
+                <th>Meal</th>
+                <th>Price</th>
+                <th>Calories</th>
+            </tr>
+            <tr *ngFor = "let fd of breakfastdata">
+                <td>{{fd.food}}</td>
+                <td>{{fd.price}}</td>
+                <td>{{fd.calories}}</td>
+            </tr>
+        </table>
+    <mat-tab label="Dinner">
+        <table>
+            <tr>
+                <th>Meal</th>
+                <th>Price</th>
+                <th>Calories</th>
+            </tr>
+            <tr *ngFor = "let fd of dinnerdata">
+                <td>{{fd.food}}</td>
+                <td>{{fd.price}}</td>
+                <td>{{fd.calories}}</td>
+            </tr>
+        </table>
+    </mat-tab>
+</mat-tab-group>
+
+<app-footer [footerInfo] = 'studInfo'></app-footer>

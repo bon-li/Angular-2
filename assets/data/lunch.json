@@ -1,0 +1,7 @@
+{
+    "lunch": [
+        {"food": "Croissant", "price": 5.99, "calories": 406},
+        {"food": "Burrito", "price": 3.49, "calories": 640 },
+        {"food": "Sandwich", "price": 7.99, "calories": 488}
+    ]
+}

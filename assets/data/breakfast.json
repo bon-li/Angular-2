@@ -1,0 +1,7 @@
+{
+    "breakfast" : [
+        {"food": "Bacon", "price": 6.48, "calories": 200},
+        {"food": "Blueberry pancake", "price": 9.99, "calories": 620},
+        {"food": "Frosted Mini Wheats Cereal", "price": 9.99, "calories": 210}
+    ]
+}
